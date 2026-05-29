@@ -54,7 +54,8 @@ public:
             cout << "Queue underflow\n";
             return;
         }
-        cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n";
+        cout << "\nThe element deleted from the queue is: " << queue_array[FRONT]
+            << "\n";
 
         // cek jika antrian hanya memiliki satu elemen
         if (FRONT == REAR)
@@ -64,7 +65,8 @@ public:
         }
         else
         {
-            // jika elemen yang dihapus berada di posisi terakhir array, kembali ke awal array
+            // jika elemen yang dihapus berada di posisi terakhir array, kembali
+            // ke awal array
             if (FRONT == max - 1)
                 FRONT = 0;
             else

@@ -117,3 +117,11 @@ public:
         }
     }
 };
+
+int main()
+{
+    Queues q;
+    char ch;
+
+    return 0;
+}

@@ -135,6 +135,15 @@ int main()
             cout << "Enter your choice (1-4): ";
             cin >> ch;
             cout << endl;
+
+            switch (ch)
+            {
+            default:
+            {
+                cout << "Invalid option!!!" << endl;
+                break;
+            }
+            }
         }
         catch (exception &e)
         {
